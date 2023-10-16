@@ -1,0 +1,82 @@
+/*@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+
+navbar_navbar-expand-lg_fixed-top_navbar-dark_bg-dark{
+font-family: "HARD_ROCK.ttf";
+}*/
+@font-face {
+    font-family: "HARD_ROCK";
+    src: url("../fonts/HARD_ROCK.ttf");
+  }
+  @font-face {
+    font-family: "TheDark";
+    src: url("../fonts/TheDark.ttf");
+  }
+  @font-face {
+    font-family: "rocknroll_typo_crazy";
+    src: url("../fonts/rocknroll_typo_crazy.ttf");
+  }
+nav{
+    font-family: "TheDark" ;
+}
+main:not(#carouselExampleControls a){
+    
+    margin-top: 4em;
+}
+body{
+   background: linear-gradient(
+    125deg,
+   black 25%,red 25%,red 50%, black 50%,black 75%,red 75%
+  );
+  background-repeat: no-repeat;
+}
+
+#carouselExampleControls img{
+   
+    -moz-border-radius:7px;
+-webkit-border-radius:7px;
+border-radius:7px;
+}
+.carousel-control-next{
+    margin-right:-5em ;
+}
+.carousel-control-prev{
+    margin-left:-5em ;
+}
+
+#membre{
+    font-family: "TheDark";
+}
+
+figcaption{
+    text-align: center;
+    
+}
+button{
+    font-family: "rocknroll_typo_crazy";
+}
+figure{
+    width: 20%;
+    padding: 1%;
+}
+#groupe img{
+    background-color: white;
+    padding:5px;
+    width: 100%; /* Définissez la largeur souhaitée pour toutes les boîtes */
+  height:75%; /* Définissez la hauteur souhaitée pour toutes les boîtes */
+  overflow: hidden; /* Restreint le contenu à l'intérieur de la boîte */
+}
+.card{
+    box-shadow: 10px 0px 5px black;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+    font-family: "HARD_ROCK" ;
+}
+@media screen and (max-width: 768px){
+    figure{
+        width: 50%;
+        padding: 1%;
+    }
+} 
